@@ -1,6 +1,23 @@
 {% include header.html %}
-<main>
-  <h2 class="jdio-header">Jonathan Drew</h2>
-  <h5 class="jdio-header-sub">Web Developer<h5>
+<main class="jdio-wrapper">
+  <header>
+    <h2 class="jdio-header" id="jdio-header">Jonathan Drew</h2>
+    <h5 class="jdio-header-sub" id="jdio-header-sub">Web Developer<h5>
+  </header>
+  <section>
+    <div class="container jdio-social-links-wrapper">
+      <div class="row jdio-social-links" id="jdio-social-links">
+        <div class="column">
+          <a href="#" alt="Github" title="GitHub"><span class="jdio-icons-global ion-social-github" id="ion-social-github"></span><p>Github</p></a>
+        </div>
+        <div class="column">
+          <a href="#" title="Linkedin"><span class="jdio-icons-global ion-social-linkedin" id="ion-social-linkedin"></span><p>Linkedin</p></a>
+        </div>
+        <div class="column">
+          <a href="#" title="Email"><span class="jdio-icons-global ion-email" id="ion-email"></span><p>Email</p></a>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 {% include footer.html %}

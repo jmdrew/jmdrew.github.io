@@ -1,2 +1,12 @@
+<script type="text/javascript">
+  var tween = TweenMax;
+  var jdioHeader = document.getElementById('jdio-header');
+  var jdioHeaderSub = document.getElementById('jdio-header-sub');
+  var jdioSocialLinks = document.getElementById('jdio-social-links');
+  tween.to(jdioSocialLinks, 2, {opacity: 1.0, delay: 1.5});
+  tween.to(jdioSocialLinks, 1.5, { ease: Bounce.easeOut, y: -15, delay: 1.5});
+  tween.to(jdioHeader, 2, {opacity: 1.0, delay: 0.5});
+  tween.to(jdioHeaderSub, 2, {opacity: 1.0, delay: 1.0});
+</script>
 </body>
 </html>
